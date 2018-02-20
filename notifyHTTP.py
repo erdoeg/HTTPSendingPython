@@ -1,7 +1,7 @@
 import os, sys, datetime
 import notify_robot as n
 
-path_dir = "/grafometria/out"
+path_dir = "/grafo/out"
 hora_agora = datetime.datetime.today().strftime('%Y%m%d%H%M%S')
 
 def list_files_on_directory(path_dir):
